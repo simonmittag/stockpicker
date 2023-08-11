@@ -10,6 +10,7 @@ func TestStockPicker(t *testing.T) {
 		Sample []int
 		Output int
 	}{
+		{"profit 8", []int{14, 20, 4, 12, 5, 11}, 8},
 		{"profit 5", []int{10, 12, 4, 5, 9}, 5},
 		{"profit 8", []int{14, 20, 4, 12, 5, 11}, 8},
 		{"profit 16", []int{44, 30, 24, 32, 35, 30, 40, 38, 15}, 16},
